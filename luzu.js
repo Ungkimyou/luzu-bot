@@ -31,7 +31,7 @@ let prefix = prefixes[message.guild.id].prefixes;
 // Bot Mention Embed
   if(message.content.toLowerCase() === `<@${client.user.id}>`){
     let embed = new Discord.RichEmbed()
-    .setTitle("Cambodia bot")
+    .setTitle("Luzu bot")
     .addField("Prefix", `${prefix}`, true)
     .addField("Help", `${prefix}help`, true)
     .setThumbnail(client.user.displayAvatarURL)
