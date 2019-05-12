@@ -217,4 +217,4 @@ let prefix = prefixes[message.guild.id].prefixes;
   
 
 
-bot.login(process.env.TOKEeN);
+bot.login(botconfig.token);
