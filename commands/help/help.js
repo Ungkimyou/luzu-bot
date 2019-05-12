@@ -6,9 +6,9 @@ message.react("✅")
   let bicon = message.author.avatarURL;
    let icon = bot.user.displayAvatarURL;
   var embed = new Discord.RichEmbed()
- .setDescription(`Hello!! I'm Cambodia Bot.Under here have some Menu of commnds. Do **<prefix>comand**\n Let mention me to show prefix if u forget my prefix`)
+ .setDescription(`Hello!! I'm Luzu Bot.Under here have some Menu of commnds. Do **<prefix>comand**\n Let mention me to show prefix if u forget my prefix`)
  .setThumbnail(icon)
- .setTitle("**Cambodia Command Help**") //This is the title of the embed.
+ .setTitle("**Luzu Command Help**") //This is the title of the embed.
 // .addField("__General :skull_crossbones:__","`" + message.prefix + "general`", true) //This is basically a pair of a title with content below it. The format of how it is made is how I show it to be.
  .addField("__Music :headphones:__", "`" + message.prefix + "music`", true)
  .addField("__Info :military_medal:__","`" + message.prefix + "info`", true)
