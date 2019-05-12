@@ -18,4 +18,4 @@ fs.readdir("./events/", (err, files) => {
   
 
 
-//bot.login("NTc3MTQ3NDk0Nzg2NTMxMzM4.XNg0xA.T4exkjpJ0ECAPhrFB_oFMuz6O-M");
+bot.login("NTc3MTQ3NDk0Nzg2NTMxMzM4.XNg0xA.T4exkjpJ0ECAPhrFB_oFMuz6O-M");
