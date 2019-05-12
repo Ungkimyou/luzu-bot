@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const bot = client
 const fs = require('fs');
-
+const botconfig = require("./botconfig.json");
 
 /////////////event////////////////////////////////////////////////////////////////////
 fs.readdir("./events/", (err, files) => {
