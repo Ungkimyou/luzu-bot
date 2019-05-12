@@ -1,0 +1,23 @@
+{
+  "name": "luzu-bot",
+  "version": "1.0.0",
+  "description": "fun bot discord",
+  "main": "luzu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ungkimyou/luzu-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ungkimyou/luzu-bot/issues"
+  },
+  "homepage": "https://github.com/Ungkimyou/luzu-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "fs": "0.0.1-security"
+  }
+}
