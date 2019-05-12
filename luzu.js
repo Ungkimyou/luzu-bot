@@ -191,7 +191,7 @@ let prefix = prefixes[message.guild.id].prefixes;
 	let commandFile = require(`./commands/setting/${cmd}.js`);
 	commandFile.run(bot, message, args);
 
-    let image = bot.channels.get("577160580499243041");
+    let setting = bot.channels.get("577160580499243041");
   
   let log = new Discord.RichEmbed()
     .setTitle('setting command')
@@ -201,7 +201,7 @@ let prefix = prefixes[message.guild.id].prefixes;
     .setFooter(`${bot.user.tag}`)
     .setTimestamp();
 
-  image.send(log);
+    setting.send(log);
 	} catch (e) {
   }
 
